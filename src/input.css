@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "NotoSans-Bold";
+        src: url("../fonts/NotoSans-Bold.ttf");
+    }
+    @font-face {
+        font-family: "NotoSans-ExtraBold";
+        src: url("../fonts/NotoSans-ExtraBold.ttf");
+    }
+    @font-face {
+        font-family: "NotoSans-Italic";
+        src: url("../fonts/NotoSans-Italic.ttf");
+    }
+    @font-face {
+        font-family: "NotoSans-Light";
+        src: url("../fonts/NotoSans-Light.ttf");
+    }
+    @font-face {
+        font-family: "NotoSans-Medium";
+        src: url("../fonts/NotoSans-Medium.ttf");
+    }
+    @font-face {
+        font-family: "NotoSans-MediumItalic";
+        src: url("../fonts/NotoSans-MediumItalic.ttf");
+    }
+    @font-face {
+        font-family: "NotoSans-Regular";
+        src: url("../fonts/NotoSans-Regular.ttf");
+    }
+    @font-face {
+        font-family: "NotoSans-SemiBold";
+        src: url("../fonts/NotoSans-SemiBold.ttf");
+    }
+    @font-face {
+        font-family: "Ambrois Francois Bold";
+        src: url("../fonts/Ambrois Francois Bold.otf");
+    }
+}
+.gallery::-webkit-scrollbar{
+    display: none;
+}
